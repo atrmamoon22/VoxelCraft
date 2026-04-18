@@ -1,0 +1,8 @@
+#build folder
+build/
+
+#vscode settings
+.vscode/
+
+#other
+deps/
