@@ -149,7 +149,7 @@ void Camera::motion(float cameraPosX, float cameraPosY, float cameraPosZ) {
     if(glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) {
 
         if(!isInAir) {
-            currentVertSpeed = 22*display.getFrameTime();
+            currentVertSpeed = 12*display.getFrameTime();
             isInAir = true;
         }
     }

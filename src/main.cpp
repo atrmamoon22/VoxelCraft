@@ -2,7 +2,7 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 #include <thread>
-#include<chrono>
+#include <chrono>
 #include "Camera.h"
 #include "LightSource.h"
 #include "DisplayManager.h"
@@ -219,7 +219,7 @@ int main() {
 			}
 
 			picker.update();
-			std::cout<<picker.getCurrentRay().x<<","<<picker.getCurrentRay().y<<","<<picker.getCurrentRay().z<<std::endl;
+			// std::cout<<picker.getCurrentRay().x<<","<<picker.getCurrentRay().y<<","<<picker.getCurrentRay().z<<std::endl;
 
 			renderer.render(camera);
 			guiRenderer.render(GUIs, player.getHearts(), player.getInventory());
