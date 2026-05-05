@@ -9,7 +9,4 @@ VoxelCraft is a simple 3D sandbox inspired by Minecraft, featuring a voxel-based
 
 ## Demo
 
-https://github.com/atrmamoon22/VoxelCraft/assets/VoxelCraft_demo.mp4
-
-<!-- Fallback if video doesn't render -->
-[Download Demo Video](res/demo.mkv)
+https://github.com/user-attachments/assets/6bacd371-8b97-46c6-a909-f74f08b74f7f
